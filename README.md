@@ -1,31 +1,110 @@
-# VisioText
+VisioText
 
-This Streamlit app allows users to extract text from images and translate it into various languages.
+Overview
 
-## Features
-- Upload or capture images for text recognition.
-- Recognizes text in multiple languages using EasyOCR.
-- Detects the language of the extracted text.
-- Translates text using the Deep Translator API.
-- Copy recognized and translated text to the clipboard.
+VisioText is a Streamlit-based application that extracts text from images and translates it into multiple languages. It also provides features for text-to-speech conversion and grammar checking to enhance the user experience.
 
-## Installation
-1. Clone the repository:
-   ```bash
-   https://github.com/JK2512/VisioText
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd text-recognition
-   ```
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+Features
 
-## Usage
-Run the Streamlit app:
-```bash
+📸 Image Text Recognition: Extract text from uploaded or captured images using EasyOCR.
+
+🌍 Language Detection & Translation: Detect the language of the extracted text and translate it into multiple languages using the Deep Translator API.
+
+🔊 Text-to-Speech (TTS): Convert text into speech for accessibility and convenience.
+
+✍️ Grammar & Spelling Check: Improve text quality using LanguageTool.
+
+📋 Copy Functionality: Copy recognized, translated, or corrected text to the clipboard.
+
+Installation
+
+Prerequisites
+
+Ensure you have Python installed on your system.
+
+Steps
+
+Clone the Repository
+
+git clone https://github.com/JK2512/VisioText.git
+
+Navigate to the Project Directory
+
+cd VisioText
+
+Install Dependencies
+
+pip install -r requirements.txt
+
+Usage
+
+Run the Streamlit app using the following command:
+
 streamlit run app.py
 
+How It Works
+
+Text Recognition
+
+Upload an image or capture a photo.
+
+The app extracts and displays the detected text.
+
+The extracted text can be copied or converted to speech.
+
+Text Translation
+
+Enter or upload text for translation.
+
+Select the target language from the dropdown.
+
+Copy or listen to the translated text.
+
+Grammar Check
+
+Enter text to check grammar and spelling errors.
+
+View corrections and copy the improved text.
+
+Supported Languages
+
+English
+
+Hindi
+
+French
+
+Spanish
+
+German
+
+Italian
+
+Portuguese
+
+Dutch
+
+Russian
+
+Chinese
+
+Japanese
+
+Korean
+
+Future Enhancements
+
+📝 Handwritten Text Recognition
+
+📄 Export Results to PDF/DOCX
+
+🎨 Enhanced UI/UX for a Better Experience
+
+Contributing
+
+We welcome contributions! Feel free to fork the repository, make your changes, and submit a pull request.
+
+Contact
+
+For any issues or feature requests, please open an issue on GitHub or contact the contributors.
  
